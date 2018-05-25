@@ -1,6 +1,4 @@
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    document.getElementById("gif").style.display = "none";
-  }
+
 
 function onGranted(){
   document.getElementById("hide").style.display = "none";
