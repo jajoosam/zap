@@ -35,5 +35,11 @@ function onDenied(){}
 
 function demo(){
   console.log("demo")
-  Push.Permission.request(onGranted, onDenied);
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    alert("works only on desktop 🖥️")
+    window.location.href="/"
+  }
+  else{
+    Push.Permission.request(onGranted, onDenied);
+  }
 }

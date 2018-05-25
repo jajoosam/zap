@@ -6,7 +6,7 @@ zap! ⚡
 
 ## Demo
 
-![Demo GIF](https://i.imgur.com/P2aclRF.gif)
+  ![Demo GIF](https://i.imgur.com/P2aclRF.gif)
 
 ### [Early access for $5](https://bmc.xyz/l/zapchrome)
 
