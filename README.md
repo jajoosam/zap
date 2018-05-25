@@ -8,6 +8,6 @@ zap! ⚡
 
   ![Demo GIF](https://i.imgur.com/P2aclRF.gif)
 
-### [Early access for $5](https://bmc.xyz/l/zapchrome)
+### [Get it on the chrome webstore](https://chrome.google.com/webstore/detail/zap/nomaflfabiifkgpolnaddeffodceabkb)
 
 [![HitCount](https://hits.dwyl.com/jajoosam/zap.svg)](https://github.com/jajoosam/zap)
