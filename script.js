@@ -1,3 +1,7 @@
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("gif").style.display = "none";
+  }
+
 function onGranted(){
   document.getElementById("hide").style.display = "none";
 document.addEventListener('copy', function(e){
@@ -37,7 +41,7 @@ function demo(){
   console.log("demo")
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     alert("works only on desktop 🖥️")
-    window.location.href="/"
+    window.location.href="/zap/"
   }
   else{
     Push.Permission.request(onGranted, onDenied);
