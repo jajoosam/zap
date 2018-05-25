@@ -1,6 +1,6 @@
 function onGranted(){
   document.getElementById("hide").style.display = "none";
-  Mousetrap.bind(['command+c', 'ctrl+c'], function(e) {
+document.addEventListener('copy', function(e){
     var q = window.getSelection().toString();
     var request = new XMLHttpRequest();
     request.open('GET', 'https://api.duckduckgo.com/?skip_disambig=1&format=json&pretty=1&q='+q, true);
