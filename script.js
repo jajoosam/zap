@@ -1,5 +1,5 @@
 function onGranted(){
-  document.getElementById("hide").style.display = "none"
+  document.getElementById("hide").style.display = "none";
   Mousetrap.bind(['command+c', 'ctrl+c'], function(e) {
     var q = window.getSelection().toString();
     var request = new XMLHttpRequest();
