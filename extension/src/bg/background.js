@@ -30,3 +30,9 @@ chrome.runtime.onMessage.addListener(
    		 });
       sendResponse({farewell: "goodbye"});
   });
+
+chrome.runtime.onInstalled.addListener(function (object) {
+    chrome.tabs.create({url: "https://jajoosam.tech/zap/help.html"}, function (tab) {
+        console.log("New tab launched with https://jajoosam.tech/zap/help.html"");
+    });
+});
